@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">      
+  <title>Input Field Password</title>
+</head>
+<body>
+  <form class="box">
+    <div class="input-wrapper">
+      <input type="password" id="password" class="input-field" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" placeholder="Your Password">
+      <label for="password" class="input-label">Password</label>
+      <img src="assets/eye.svg" alt="Eye Icon" title="Eye Icon" class="input-icon">
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
